@@ -1,0 +1,39 @@
+@import "compass";
+body {
+  font-family: 'Orbitron', sans-serif;
+  color: #0ee063;
+  font-size: 62.5%;
+    text-shadow: 0 1px rgb(24, 27, 25);
+}
+h2 {
+  font-size: 3em;
+  
+  @media screen and (max-width: 480px) {
+    font-size: 2em;
+  }
+}
+h3{
+    font-size: 20px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.logo-tag {
+  font-size: 1.5em;
+    color:yellow;
+}
+r{
+    color:red;
+}
+y{
+    color:yellow;
+}
