@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>title</title>
+	<link rel="stylesheet" href="css/file.css">
+	<link rel="stylesheet" href="css/file2.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/skill.bars.jquery.js"></script>
+</head>
+<body>
+<script>
+
+$(document).ready(function(){
+	
+	$('.skillbar').skillBars({
+		from: 0,
+		speed: 4000, 
+		interval: 100,
+		decimals: 0,
+	});
+	
+});
+
+</script>
+<div class="fixednav">
+	<ul style="padding-left: 0px;" id="ule">
+		<li><a href="#main">Main</a></li>
+		<li><a href="#about">About</a></li>
+		<li><a href="#contact">Contact</a></li>
+		<li><a href="/blog/">Blog</a></li>
+	</ul>
+</div>
+<section class="intro">  
+  <div class="content" id="main">
+    <h1>Welcome to "<span>P</span>ro <span>D</span>eveloper" main page</h1>
+    <p>you can check my skills in About tab :)</p>
+ </div>
+</section>
+
+<section>  
+  <div class="content" id="about">
+<h1 >My name is <span>S</span>aber <span>H</span>osney (I'm not a sword :D),</h1>
+<br><h2 style="color: darkgrey;">I'm a professional Front-End Developer (UI Developer)<br>My Skills (in web development) :</h2>
+
+ <br>
+<!-- Start -->
+<div class="skillbar" data-percent="98">
+      <span class="skillbar-title" style="background: #e67e22;">HTML5</span>
+      <p class="skillbar-bar" style="background: #e67e22;"></p>
+      <span class="skill-bar-percent" style="font-weight: 600;"></span>
+    </div>
+    <!-- End Skill Bar -->
+    
+    <div class="skillbar" data-percent="70">
+      <span class="skillbar-title" style="background: #3498db;">CSS3</span>
+      <p class="skillbar-bar" style="background: #3498db;"></p>
+      <span class="skill-bar-percent" style="font-weight: 600;"></span>
+    </div>
+    <!-- End Skill Bar -->
+    
+    <div class="skillbar" data-percent="98">
+      <span class="skillbar-title" style="background: #5a68a5;">Javascript</span>
+      <p class="skillbar-bar" style="background: #5a68a5;"></p>
+      <span class="skill-bar-percent" style="font-weight: 600;"></span>
+    </div>
+    <!-- End Skill Bar -->
+    
+    <div class="skillbar" data-percent="55">
+      <span class="skillbar-title" style="background: #27ae60;">PHP</span>
+      <p class="skillbar-bar" style="background: #27ae60;"></p>
+      <span class="skill-bar-percent" style="font-weight: 600;"></span>
+    </div>
+    <!-- End Skill Bar -->
+<!-- end -->
+  </div>
+</section>
+
+<section>  
+  <div class="content" id="contact">
+  <h1>Follow me on social media for news and contact :)</h1><br>
+	<a href="http://www.facebook.com/pro.devel" class="soc-face"><i class="fa fa-facebook fa-3x"></i>Facebook</a>
+	<a href="http://www.twitter.com/Pro_Devel" class="soc-twit"><i class="fa fa-twitter fa-3x"></i>Twitter</a>
+	<a href="https://plus.google.com/+El3abthLastPro-Fun" class="soc-gp"><i class="fa fa-google-plus fa-3x"></i>Google Plus</a>
+	<a href="http://www.github.com/pro-devel" class="soc-git"><i class="fa fa-github fa-3x"></i>Github</a>
+ </div>
+</section>
+
+</body>
+</html>
