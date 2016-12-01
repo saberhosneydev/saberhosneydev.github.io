@@ -33,7 +33,15 @@ h1 {
   color: white;
   font-weight: 300; }
 h1 span{
+  font-size: 1.5em;
   font-weight: 600;
+}
+span{
+  font-size: 1.5em;
+  color: white;
+}
+span a {
+  color: orange;
 }
 p {
   font-size: 0em;
