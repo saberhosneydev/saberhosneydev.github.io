@@ -1,0 +1,100 @@
+@import url(../fonts/patua_one/patua.css);
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-weight: 500;
+  font-family: 'Patua One' , cursive;
+   }
+
+section {
+  width: 100%;
+  padding: 0 7%;
+  padding-top: 20px;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: #373B44;
+  height: 100vh; }
+  section:nth-of-type(2n) {
+    background-color: #34495e; }
+
+.intro {
+  height: 100vh; }
+
+.content {
+  display: table-cell;
+  vertical-align: middle; }
+
+h1 {
+  font-size: 3em;
+  display: inline;
+  color: white;
+  font-weight: 300; }
+h1 span{
+  font-weight: 600;
+}
+p {
+  font-size: 0em;
+  font-weight: 500;
+  color: #C3CAD9; }
+
+
+footer {
+  padding: 1% 5%;
+  text-align: center;
+  background-color: #373B44;
+  color: white; }
+  footer a {
+    color: #FE4B74;
+    font-weight: 500;
+    text-decoration: none; }
+
+/*# sourceMappingURL=file.css.map */
+.fixednav{
+background-color: #eee;
+width: 100%;
+padding: 15px;
+text-align: center;
+position: fixed;
+z-index: 1;
+}
+.fixednav ul li {
+	display: inline-table;
+	list-style-type: none;
+}
+.fixednav ul li :hover{
+		background-color: #aaa;
+}
+.fixednav ul li a {
+	color: crimson;
+	padding: 15px;
+}
+a {
+  font-weight: 700;
+  position: relative; 
+  color: #373B44;
+	text-decoration: none;}
+  a:hover {
+    opacity: 0.8; 
+	text-decoration: none;
+}
+  a:active {
+    top: 1px; }
+
+.soc-face{
+  color: #3b5998;
+}
+.soc-twit{
+  color: #55acee;
+}
+.soc-gp{
+  color:#d34836;
+}
+.soc-git{
+  color:grey;
+}
+#contact a {
+  font-size: 22px;
+}
