@@ -43,7 +43,7 @@
 <body>
 <script>
 
-$(document).ready(function(){
+$("a.about").click(function(){
 	
 	$('.skillbar').skillBars({
 		from: 0,
@@ -68,7 +68,7 @@ $(document).ready(function(){
 <div class="fixednav">
 	<ul style="padding-left: 0px;" id="ule">
 		<li><a href="#main">Main</a></li>
-		<li><a href="#about">About</a></li>
+		<li><a href="#about" class="about">About</a></li>
 		<li><a href="#contact">Contact</a></li>
 		<li><a href="/blog/">Blog</a></li>
 	</ul>
