@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="css/file2.css">
 	<link rel="stylesheet" href="css/font-awesome.css">
 	<script src="js/jquery-2.1.4.min.js"></script>
-	<script src="js/skill.bars.jquery.js"></script>
+	<script src="js/simple-skillbar.js"></script>
 	<script src="js/typed.min.js"></script>
 	    <meta content='Website' name='generator'/>
     <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
@@ -44,14 +44,7 @@
 <script>
 
 $("a.about").on("click", function(){
-	
-	$('.skillbar').skillBars({
-		from: 0,
-		speed: 4000, 
-		interval: 100,
-		decimals: 0,
-	});
-	
+$('.demo').simpleSkillbar({});	
 });
 
 </script>
@@ -87,35 +80,12 @@ $("a.about").on("click", function(){
 <br><h2 style="color: darkgrey;">I'm a professional Front-End Developer (UI Developer)<br>My Skills (in web development) :</h2>
 
  <br>
-<!-- Start -->
-<div class="skillbar" data-percent="98">
-      <span class="skillbar-title" style="background: #e67e22;">HTML5</span>
-      <p class="skillbar-bar" style="background: #e67e22;"></p>
-      <span class="skill-bar-percent" style="font-weight: 600;"></span>
-    </div>
-    <!-- End Skill Bar -->
-    
-    <div class="skillbar" data-percent="70">
-      <span class="skillbar-title" style="background: #3498db;">CSS3</span>
-      <p class="skillbar-bar" style="background: #3498db;"></p>
-      <span class="skill-bar-percent" style="font-weight: 600;"></span>
-    </div>
-    <!-- End Skill Bar -->
-    
-    <div class="skillbar" data-percent="98">
-      <span class="skillbar-title" style="background: #5a68a5;">Javascript</span>
-      <p class="skillbar-bar" style="background: #5a68a5;"></p>
-      <span class="skill-bar-percent" style="font-weight: 600;"></span>
-    </div>
-    <!-- End Skill Bar -->
-    
-    <div class="skillbar" data-percent="55">
-      <span class="skillbar-title" style="background: #27ae60;">PHP</span>
-      <p class="skillbar-bar" style="background: #27ae60;"></p>
-      <span class="skill-bar-percent" style="font-weight: 600;"></span>
-    </div>
-    <!-- End Skill Bar -->
-<!-- end -->
+<div id="skill1" class="demo" data-width="80" data-background="#FFC107">JavaScript (80%)</div>
+<div id="skill2" class="demo" data-width="90" data-background="#FF5722">HTML5+XML (90%)</div>
+<div id="skill3" class="demo" data-width="70" data-background="#2196F3">CSS+CSS3 (70%)</div>
+<div id="skill4" class="demo" data-width="50" data-background="#F44336">AngularJS (50%)</div>
+<div id="skill5" class="demo" data-width="80" data-background="#3B5998">ReactJS + React Native (80%)</div>
+
   </div>
 </section>
 
