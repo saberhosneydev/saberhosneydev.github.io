@@ -38,6 +38,25 @@
 <meta content='@Pro_Devel' name='twitter:creator'/>
 <meta content='120' http-equiv='refresh'/>
     <meta name="description" content="A simple CMS Designed & Created By El3abth-Last">
+	<script type="text/javascript">;
+  !function(name,path,ctx){
+    var latest,prev=name!=='Keen'&&window.Keen?window.Keen:false;ctx[name]=ctx[name]||{ready:function(fn){var h=document.getElementsByTagName('head')[0],s=document.createElement('script'),w=window,loaded;s.onload=s.onerror=s.onreadystatechange=function(){if((s.readyState&&!(/^c|loade/.test(s.readyState)))||loaded){return}s.onload=s.onreadystatechange=null;loaded=1;latest=w.Keen;if(prev){w.Keen=prev}else{try{delete w.Keen}catch(e){w.Keen=void 0}}ctx[name]=latest;ctx[name].ready(fn)};s.async=1;s.src=path;h.parentNode.insertBefore(s,h)}}
+  }('KeenAsync','https://d26b395fwzu5fz.cloudfront.net/keen-tracking-1.1.3.min.js',this);
+
+  KeenAsync.ready(function(){
+    // Configure a client instance
+    // This is your actual Project ID and Write Key
+    var client = new KeenAsync({
+      projectId: '59ba3e63c9e77c00015e71be',
+      writeKey: '3A185CF54AFADCF786B2E959DEA86649DECB4821F3EE3468122A5456B971E1E8D2239E7DDE4E3735C5A43122D5470E066E4429E7E50D32B7FDDEC173C1EBB0C731C1E03783352846A0C36F5452B538AA22B4BDE6779C4CD5EE20A95779830BB9'
+    });
+
+    // Record an event
+    client.recordEvent('pageviews', {
+      title: document.title
+    });
+  });
+</script>
 	<script type="text/javascript">
   function createKeenWebAutoCollector(){window.keenWebAutoCollector=window.KeenWebAutoCollector.create({projectId:'59ba3e63c9e77c00015e71be',writeKey:'3A185CF54AFADCF786B2E959DEA86649DECB4821F3EE3468122A5456B971E1E8D2239E7DDE4E3735C5A43122D5470E066E4429E7E50D32B7FDDEC173C1EBB0C731C1E03783352846A0C36F5452B538AA22B4BDE6779C4CD5EE20A95779830BB9',onloadCallbacks:window.keenWebAutoCollector.onloadCallbacks}),window.keenWebAutoCollector.loaded()}function initKeenWebAutoCollector(){window.keenWebAutoCollector.domReady()?window.createKeenWebAutoCollector():document.addEventListener("readystatechange",function(){window.keenWebAutoCollector.domReady()&&window.createKeenWebAutoCollector()})}window.keenWebAutoCollector={onloadCallbacks:[],onload:function(a){this.onloadCallbacks.push(a)},domReady:function(){return["ready","complete"].indexOf(document.readyState)>-1}};
 </script>
