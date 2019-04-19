@@ -1,15 +1,97 @@
-.me {
-	color: red;
-	font-size: 36;
-}
-@font-face {
-	font-family: "Office Code Pro";
-	src: url('web.ttf');
+html *{
+	margin: 0;
+	padding: 0;
 }
 body {
+	font-family: "Arial";
+	background: #eee;
+}
+.terminal {
+	margin: 10% 25% ;
+	width: 50%;
+	box-shadow: 0px 0px 15px 0px #3d393d;
+	border-radius: 25px;
+}
+.header {
+	background: lightgrey;
+	padding: 5px 5px;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+}
+.controllers {
+	display: inline-block;
+	margin-left: 3%;
+}
+.controller {
+	height: 12px;
+	width: 12px;
+	border-radius: 90px;
+	display: inline-block;
+}
+.text {
+	display: inline-block;
+	margin-left: 28%;
+}
+.body {
 	background: black;
-	color: green;
-	font-size: 2em;
+	opacity: .75;
+	height: 400px;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	color:white;
+	font-size: 36px;
+}
+.line {
+	display: inline-block;
+}
+.line:before {
+	font-family: "Roboto Mono";
+	content: "Saber$ ";
+	color: red;
+}
+.social {
+	margin: 0 25% ;
+	width: 50%;
 	text-align: center;
-	font-family: "Office Code Pro";
+}
+.social .field {
+	display: inline-block;
+	padding: 15px 15px;
+}
+.fa-facebook {
+	color: #3b5998;
+}
+.fa-twitter {
+	color: #55acee;
+}
+.fa-youtube {
+	color: #b31217;
+}
+.fa-github {
+	color: black;
+}
+.fa-instagram {
+	color: #517fa4;
+}
+.fa-twitch {
+	color: #6441a5;
+}
+.fa-reddit {
+	color: #FF4500;
+}
+.footer {
+	font-family: "Nova Mono", monospace;
+	position: fixed;
+	bottom: 0;
+	width: 20%;
+	left: 40%;
+}
+.love {
+	color:red;
+}
+.footer:hover {
+	width: 30%;
+	left: 35%;
+	font-size: 1.5rem;
+	transition: width .5s, left .5s, font-size .5s;
 }

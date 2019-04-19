@@ -1,0 +1,15 @@
+.me {
+	color: red;
+	font-size: 36;
+}
+@font-face {
+	font-family: "Office Code Pro";
+	src: url('web.ttf');
+}
+body {
+	background: black;
+	color: green;
+	font-size: 2em;
+	text-align: center;
+	font-family: "Office Code Pro";
+}
